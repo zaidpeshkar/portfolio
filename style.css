@@ -426,6 +426,49 @@ footer {
   height: 26vh;
   margin: 0 1rem;
 }
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .nav-links {
+    display: none; /* Hide desktop links */
+  }
+
+  #hamburger-nav {
+    display: block; /* Show hamburger menu */
+  }
+
+  section {
+    margin: 0 2rem;
+    padding-top: 2vh;
+  }
+
+  .section__pic-container {
+    width: 100%;
+    height: auto;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .article-container {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .contact-info-container {
+    flex-direction: column;
+    text-align: center;
+  }
+}
 
 footer p {
   text-align: center;
